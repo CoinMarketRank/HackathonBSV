@@ -42,7 +42,7 @@ function getCurrentUserData()
 {
 var user;
      $.ajax({
-        url: "https://jira.coinmarketrank.io/rest/api/2/myself",
+        url: "http://jira.coinmarketrank.io:8080/rest/api/2/myself",
         type: 'get',
         dataType: 'json',
         async: false,
