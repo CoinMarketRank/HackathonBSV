@@ -131,6 +131,8 @@
 <?php
 include('getIssues.php');
 ?>
+<br>
+<iframe width="100%" height="481px" src="https://jira.coinmarketrank.io/plugins/servlet/eazybi/accounts/6/embed/report/87?embed_token=qpb2ueqv216etxj93sekzhzvysk26ofncm2v42mdwbq42pejfizyfibocpcp" frameborder="0"></iframe>
                                                                         </p>
 								</header>
 								<!--<ul class="statistics">
