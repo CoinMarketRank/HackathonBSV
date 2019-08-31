@@ -36,5 +36,22 @@
     console.log('Oh no! Something went wrong: ${error}')
   }
 </script>
+<script>
+function getCurrentUserData()
+{
+var user;
+     AJS.$.ajax({
+        url: "https://jira.coinmarketrank.io/rest/api/2/myself",
+        type: 'get',
+        dataType: 'json',
+        async: false,
+        success: function(data) {
+            user = data.key;
+        }
+     });
+     return user;
+}
+alert(getCurrentUserData());
+</script>
 </body>
 </html>
