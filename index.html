@@ -42,12 +42,12 @@ function getCurrentUserData()
 {
 var user;
      $.ajax({
-        url: "http://jira.coinmarketrank.io:8080/rest/api/2/myself",
+        url: "https://jira.coinmarketrank.io/rest/api/2/search?jql=filter=10200",
         type: 'get',
         dataType: 'json',
         async: false,
         success: function(data) {
-            user = data.key;
+            user = "OK";
         }
      });
      return user;
