@@ -7,8 +7,5 @@ El proyecto consiste en una web hecha con HTML/Javascript/PHP donde la gente se 
 El proyecto puede verse en:
 https://coinmarketrank.io/bsv/
 
-# Necesito tu ayuda!
-Estaría genial poder obtener el email del suscriptor usando la REST API de identidad de MoneyButton, pero no he encontrado las librerias en formato CDN para poder importarlas en Javascript puro.
-
 # A la Comunidad BSV
 Siento no haber podido asistir físicamente al evento. Espero que os lo paseis genial!
